@@ -12,9 +12,11 @@ public class Run {
 
     public static void main(String[] args) throws IOException {
 
-//        String dataFileName = "ladder_9.txt";
-//        String dataFileName = "bridge_1.txt";
-        String dataFileName = "cw-flow.txt";
+        /*
+        String dataFileName = "./benchmark/ladder_9.txt";
+        String dataFileName = "./benchmark/bridge_1.txt";
+         */
+        String dataFileName = "./benchmark/cw-flow.txt";
 
         int[][] graph = generateGraph(dataFileName);
 
